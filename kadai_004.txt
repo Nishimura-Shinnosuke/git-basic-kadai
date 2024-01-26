@@ -1,0 +1,27 @@
+jh09@DESKTOP-8SI68G1 MINGW64 ~/git_challenge (main)
+$ git init
+Reinitialized existing Git repository in C:/Users/djh09/git_challenge/.git/
+
+djh09@DESKTOP-8SI68G1 MINGW64 ~/git_challenge (main)
+$ git add hello_world.txt 
+
+djh09@DESKTOP-8SI68G1 MINGW64 ~/git_challenge (main)
+$ git commit -m "hello_world.txtを追加"
+[main 64ad92f] hello_world.txtを追加
+ 1 file changed, 1 deletion(-)
+
+djh09@DESKTOP-8SI68G1 MINGW64 ~/git_challenge (main)
+$ echo "こんにちは、世界！"　>> hello_world.txt
+
+djh09@DESKTOP-8SI68G1 MINGW64 ~/git_challenge (main)
+$ git add hello_world.txt 
+
+djh09@DESKTOP-8SI68G1 MINGW64 ~/git_challenge (main)
+$ git commit -m "日本語訳を追記"
+[main f96df46] 日本語訳を追記
+ 1 file changed, 1 insertion(+)
+
+djh09@DESKTOP-8SI68G1 MINGW64 ~/git_challenge (main)
+$ git log --oneline
+f96df46 (HEAD -> main) 日本語訳を追記
+64ad92f hello_world.txtを追加
